@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/profileEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_email"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/profileUserIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_id"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_product_btn"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#3DB1E4"
+        android:textColor="#2C3148"/>
+
+    <Button
+        android:id="@+id/listProductsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listing_product"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3DB1E4"
+        android:textColor="#2C3148"/>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_btn"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3DB1E4"
+        android:textColor="#2C3148"/>
+
+</LinearLayout>

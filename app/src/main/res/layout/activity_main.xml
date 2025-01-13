@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!-- Title and Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/splash_heading"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#2C3148"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/splash_slogan"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#2C3148"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Centered Image -->
+        <ImageView
+            android:id="@+id/splashImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/splash"/>
+
+        <!-- Button Below the Image -->
+        <Button
+            android:id="@+id/getStartedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splashImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="@string/get_started_button_text"
+            android:textSize="16sp"
+            android:paddingHorizontal="24dp"
+            android:backgroundTint="#3DB1E4"
+            android:textColor="#2C3148"
+            android:paddingVertical="12dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

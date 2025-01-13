@@ -1,0 +1,10 @@
+<resources>
+    <string name="register_form_heading">SwapSpot</string>
+    <string name="register_form_second">Register now for products exchange!</string>
+    <string name="hint_1">Full Name</string>
+    <string name="hint_2">Email</string>
+    <string name="hint_3">Password</string>
+    <string name="hint_4">Confirm Password</string>
+    <string name="condition">Already have an account</string>
+    <string name="register_btn">Register</string>
+</resources>

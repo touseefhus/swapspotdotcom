@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_email">Email</string>
+    <string name="user_id">User ID</string>
+    <string name="add_product_btn">Add Product</string>
+    <string name="listing_product">Listing Product</string>
+    <string name="logout_btn">Log Out</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "85973700861",
+    "project_id": "swapspot-ac502",
+    "storage_bucket": "swapspot-ac502.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85973700861:android:e3706dc8a2f1675fcdae94",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwNvzSVohyFmmyaeJibC-r2oYWf-uMenk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

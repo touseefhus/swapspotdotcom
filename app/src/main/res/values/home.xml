@@ -1,0 +1,11 @@
+<resources>
+    <string name="home_heading">SwapSpot</string>
+    <string name="notification_icon">Notification</string>
+    <string name="category_all">All</string>
+    <string name="product_1_name">Product Name 1</string>
+    <string name="product_1_price">100$</string>
+    <string name="product_1_des">This is a brief description of Product 1.</string>
+    <string name="product_2_des">This is a brief description of Product 2.</string>
+    <string name="let_chat">Chat Now</string>
+    <string name="home_filter">Search Product</string>
+</resources>

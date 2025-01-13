@@ -1,0 +1,10 @@
+<resources>
+    <string name="login_form_heading">SwapSpot</string>
+    <string name="login_form_slogan">Login now for exchange product</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_text">Enter your registered email address to receive a password reset link.</string>
+    <string name="forgot_password_input">Enter your email</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="Login_btn">Login</string>
+    <string name="forgot_password_btn">Send Reset Link</string>
+</resources>

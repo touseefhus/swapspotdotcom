@@ -1,0 +1,13 @@
+<resources>
+    <string name="add_product_heading_top">Add a new Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_category">Product Category</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_upload">Save Product</string>
+    <string name="select_image">Select Image</string>
+    <string name="product_replace">Replace with</string>
+    <string name="open_replace_details">Open</string>
+    <string name="replacement_details">Replacement <Det></Det>ails</string>
+</resources>

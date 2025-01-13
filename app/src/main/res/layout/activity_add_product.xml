@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_product_heading_top"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#2C3148" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/product_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3148"/>
+
+        <EditText
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/product_name"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:layout_marginTop="10sp"
+            android:textColor="#333333"/>
+
+        <!-- Hidden Replacement Details Field -->
+        <EditText
+            android:id="@+id/replacementDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/replacement_details"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/product_description"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3148"/>
+
+        <EditText
+            android:id="@+id/productCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/product_description"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:layout_marginTop="10sp"
+            android:textColor="#333333"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/product_category"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3148"/>
+        <EditText
+            android:id="@+id/productDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/product_category"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:layout_marginTop="10sp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/product_image"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2C3148"/>
+
+        <!-- ImageView for displaying the uploaded image -->
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/rounded_edittext"
+            android:scaleType="centerCrop" />
+
+        <!-- Button to open the image picker -->
+        <Button
+            android:id="@+id/selectImageButton"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image"
+            android:backgroundTint="#3DB1E4"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <!-- New Section for Replacement Details -->
+
+        <!-- Tab Button -->
+        <Button
+            android:id="@+id/openReplaceDetailsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/open_replace_details"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3DB1E4"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/submitProductButton"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/product_upload"
+            android:backgroundTint="#3DB1E4"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
